@@ -7,7 +7,7 @@ from .base import Ref, LinkedTxn, QuickbooksManagedObject, QuickbooksTransaction
 from .tax import TxnTaxDetail
 from ..mixins import DeleteMixin
 
-#useless comment
+#useless comment2
 @python_2_unicode_compatible
 class Bill(DeleteMixin, QuickbooksManagedObject, QuickbooksTransactionEntity, LinkedTxnMixin):
     """
