@@ -3,7 +3,7 @@ from .client import QuickBooks
 from .objects.changedatacapture import QueryResponse, CDCResponse
 from .helpers import qb_datetime_format
 
-
+#useless comment
 def change_data_capture(qbo_class_list, timestamp, qb=None):
     if qb is None:
         qb = QuickBooks()
